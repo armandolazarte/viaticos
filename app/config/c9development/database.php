@@ -22,7 +22,7 @@ return array(
 
 		'viaticos' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => 'samuelmg-viaticos-1011178',
 			'database'  => 'viaticos',
 			'username'  => 'vuser',
 			'password'  => '',
