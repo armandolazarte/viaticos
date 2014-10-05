@@ -25,7 +25,7 @@ class CrearTablasViaticos extends Migration {
 			$t->increments('id');
 			$t->string('mec_origen'); //Origen de la comisión (Invitación/Unidad Responsable)
 			$t->string('inst_genera'); //Quien invita
-			$t->integer('ur_id')->unsigned(); //UR que genera comisión
+			$t->string('ur'); //UR que genera comisión
 			$t->string('tipo_rep', 50); //Tipo de puesto (Tecnico/Alto Nivel)
 			$t->string('consecutivo', 50)->unique(); //No. de comisión
 			$t->string('nombre'); //Servidor público comisionado
@@ -124,8 +124,7 @@ class CrearTablasViaticos extends Migration {
 			$t->string('hotel');
 			$t->date('fechainicio_hotel');
 			$t->date('fechafin_hotel');
-			$t->decimal('costo_hotel');
-			$t->decimal('gasto_hospedaje'); //$ hospedaje
+			$t->decimal('gasto_hotel');
 			
 			$t->timestamps();
 		});
