@@ -13,5 +13,33 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	//return View::make('hello');
+	return View::make('inicio');
+	
 });
+
+//Route::model('vid', 'Viatico');
+
+Route::group(array('prefix' => 'viatico'), function()
+{
+    Route::get('/inicio', 'ViaticosController@inicio');
+    Route::get('/nuevo', 'ViaticosController@nuevo');
+    Route::get('/consultar/{vid}', 'ViaticosController@consultar');
+    
+    Route::post('/nuevo', 'ViaticosController@procesaNuevo');
+    
+    
+    Route::get('/viaje/nuevo', 'ViajesController@nuevo');
+    
+});
+
+Route::group(array('prefix' => 'consulta'), function()
+{
+    Route::get('/inicio', 'ConsultasController@inicio');
+});
+
+Route::group(array('prefix' => 'admin'), function()
+{
+    Route::get('/inicio', 'AdminController@inicio');
+});
+
