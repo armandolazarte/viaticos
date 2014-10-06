@@ -1,5 +1,8 @@
 ## Gestor de Viáticos Transparentes
 
+ ** El sistema no pudo ser completado en el tiempo establecido en el Reto de Viajes Transparentes, **
+ ** sin embargo su desarrollo continuará con el objetivo de que pueda ser implementado en una univserdiad pública **
+
 El Gestor de Viáticos Transparentes tiene como objetivo el brindar un plataforma informática
 para el registro de los viajes realizados por funcionarios de diversas dependencias de gobierno o
 instituciones educativas públicas en México.
