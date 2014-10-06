@@ -37,10 +37,4 @@ class Viatico extends Eloquent
     {
         return $this->hasMany('Hospedaje');
     }
-    
-    //Viatico __belongs_to__ Ur
-    public function ur()
-    {
-        return $this->belongsTo('Ur');
-    }
 }
