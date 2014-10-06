@@ -1,6 +1,6 @@
-## Gestor de Viajes Transparentes
+## Gestor de Viáticos Transparentes
 
-El Gestor de Viajes Transparentes tiene como objetivo el brindar un plataforma informática
+El Gestor de Viáticos Transparentes tiene como objetivo el brindar un plataforma informática
 para el registro de los viajes realizados por funcionarios de diversas dependencias de gobierno o
 instituciones educativas públicas en México.
 
@@ -32,18 +32,16 @@ El sistema se enfoca en dos aspectos:
 
 ## Demo
 
-[Gestor de Viajes Transparentes](http://viaticos-c9-samuelmg.c9.io/)
+[Gestor de Viáticos Transparentes](http://viaticos-c9-samuelmg.c9.io/)
 
 ## Equipo
 
-[Samuel Mercado Garibay](mx.linkedin.com/pub/samuel-mercado/71/5aa/a2b/)
-[Hayde Suemi Romo García](mx.linkedin.com/pub/hayde-romo/a5/5b6/6b4)
+ * [Samuel Mercado Garibay](mx.linkedin.com/pub/samuel-mercado/71/5aa/a2b/)
+ * [Hayde Suemi Romo García](mx.linkedin.com/pub/hayde-romo/a5/5b6/6b4)
 
 ### Contribuciones
 
 Todas las contribuciones y "pull requests" deberán ser enviadas mediante [samuelmg/viaticos](http://github.com/samuelmg/viaticos)
-
-## Video
 
 ## Wiki
 

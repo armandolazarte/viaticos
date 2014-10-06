@@ -11,6 +11,7 @@
   <li><a href="{{ action('ViaticosController@nuevo') }}">Nuevo Viático</a></li>
   <li><a href="#">Consultar</a></li>
   <li><a href="#">Editar</a></li>
+  <li><a href="#">Formatos</a></li>
 </ul>
 @stop
 
