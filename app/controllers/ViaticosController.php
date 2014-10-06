@@ -4,7 +4,7 @@ class ViaticosController extends BaseController
 {
 	public function inicio()
 	{
-		return View::make('viaticoInici');
+		return View::make('viaticoInicio');
 	}
 	
 	public function nuevo()

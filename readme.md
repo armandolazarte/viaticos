@@ -1,25 +1,54 @@
-## Laravel PHP Framework
+## Gestor de Viajes Transparentes
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+El Gestor de Viajes Transparentes tiene como objetivo el brindar un plataforma informática
+para el registro de los viajes realizados por funcionarios de diversas dependencias de gobierno o
+instituciones educativas públicas en México.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+El sistema se enfoca en dos aspectos:
+ 1) Facilidad en el registro de la información por parte de los funcionarios, pensando en la emisión de 
+	los documentos que requieran los mismos funcionarios.
+ 2) Acceso a la información por parte de la ciudadanía como parte de la transparencia que debe existir
+	en el ejercicio de los recursos
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+## Dependencias
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+ * PHP 5.5
+ * Laravel 4
+ * Composer
 
-## Official Documentation
+## Instalación
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+ 1. Clonar repositorio [samuelmg/viaticos](http://github.com/samuelmg/viaticos)
+ 2. Ejecutar: composer install
+ 3. Crear base de datos "viaticos"
+ 4. Permitir acceso al usuario "vuser" a base de datos "viaticos"
+ 5. Ejecutra: php artisan migrate:install //Instala sistema de migraciones en base de datos
+ 6. Ejecutar: php artisan migrate //Crea las tablas en la base de datos
 
-### Contributing To Laravel
+## Ejecución
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+ * Ejecutar: php artisan serve --host = NOMBRE_HOST --port=8080
+ * Abrir página: NOMBRE_HOST:8080
+
+## Demo
+
+[Gestor de Viajes Transparentes](http://viaticos-c9-samuelmg.c9.io/)
+
+## Equipo
+
+[Samuel Mercado Garibay](mx.linkedin.com/pub/samuel-mercado/71/5aa/a2b/)
+[Hayde Suemi Romo García](mx.linkedin.com/pub/hayde-romo/a5/5b6/6b4)
+
+### Contribuciones
+
+Todas las contribuciones y "pull requests" deberán ser enviadas mediante [samuelmg/viaticos](http://github.com/samuelmg/viaticos)
+
+## Video
+
+## Wiki
+
+[Wiki](http://github.com/samuelmg/viaticos/wiki)
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+El sistema de viajes transparentes es software de código abierto bajo la licencia [GNU GENERAL PUBLIC LICENSE Version 2](http://www.gnu.org/licenses/gpl-2.0.html)
